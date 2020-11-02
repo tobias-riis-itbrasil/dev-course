@@ -12,7 +12,7 @@
     
     'category': 'Organization Management',
     
-    'depends': ['base'],
+    'depends': [],
     
     'data': [],
     
