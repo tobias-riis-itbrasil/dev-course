@@ -12,7 +12,7 @@
     
     'category': 'Business Administration',
     
-    'depends': ['base'],
+    'depends': [],
     
     'data': [],
     
