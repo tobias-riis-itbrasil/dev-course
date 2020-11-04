@@ -14,10 +14,14 @@
     
     'depends': ['base'],
     
-    'data': [],
+    'data': [
+        "views/spaceship.xml",
+    ],
     
     'application': True,
     
-    'demo': [],
+    'demo': [
+        'demo/spaceflight_demo.xml',
+    ],
     
 }

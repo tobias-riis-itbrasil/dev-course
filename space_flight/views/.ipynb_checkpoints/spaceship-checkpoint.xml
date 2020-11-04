@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="spaceship_form_view">
+            <field name="name">spaceflight.spaceship.form</field>
+            <field name="model">spaceflight.spaceship</field>
+            <field name="arch" type="xml">
+                <form string="spaceship form view">
+                    <sheet>
+                        <h1><field name="name"/></h1>
+                        <group>
+                            <field name="type"/>
+                            <field name="serial_no"/>
+                        </group>
+                        <group>
+                            <field name="seats"/>
+                            <field name="fuel_type"/>
+                        </group>
+                        <notebook>
+                            <page string="Description">
+                                <field name="description"/>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        
+        <record model="ir.ui.view" id="spaceship_tree_view">
+            <field name="name">spaceflight.spaceship.tree</field>
+            <field name="model">spaceflight.spaceship</field>
+            <field name="arch" type="xml">
+                <tree string="spaceship tree view">
+                    <field name="name"/>
+                    <field name="type"/>
+                    <field name="serial_no"/>
+                    <field name="seats"/>
+                </tree>
+            </field>
+        </record>
+        
+        <record model="ir.ui.view" id="spaceship_search_view">
+            <field name="name">spaceflight.spaceship.search</field>
+            <field name="model">spaceflight.spaceship</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name"/>
+                    <field name="description"/>
+                </search>           
+            </field>
+        </record>
+    </data>
+</odoo>
