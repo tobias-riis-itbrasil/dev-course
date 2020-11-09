@@ -12,10 +12,13 @@
                         <group>
                             <field name="type"/>
                             <field name="serial_no"/>
-                        </group>
-                        <group>
                             <field name="seats"/>
                             <field name="fuel_type"/>
+                        </group>
+                        <group>
+                            <field name="main_tank_fuel"/>
+                            <field name="secondary_tank_fuel"/>
+                            <field name="total_fuel"/>
                         </group>
                         <notebook>
                             <page string="Description">

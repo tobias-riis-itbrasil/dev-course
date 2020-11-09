@@ -16,12 +16,16 @@
     
     'data': [
         "views/spaceship.xml",
+        'views/menuitems.xml',
+        'security/space_flight_security.xml',
+        'security/ir.model.access.csv',
     ],
     
     'application': True,
     
     'demo': [
         'demo/spaceflight_demo.xml',
+        
     ],
     
 }

@@ -1,0 +1,3 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+group_space_flight_admin,Space flight admin,model_spaceflight_spaceship,group_space_flight_admin,1,1,1,1
+group_space_flight_admin,Space flight admin,model_spaceflight_mission,group_space_flight_admin,1,1,1,1
